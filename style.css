@@ -33,7 +33,7 @@ body {
 
 #title {
   background-color: #ffe396;
-  height: 22%;
+  height: 12%;
   width: 55%;
   position: relative;
   margin: 0 auto;
@@ -41,6 +41,30 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.down {
+  top: 1100px !important;
+}
+
+#abouttext {
+  position: absolute;
+  top: 220px;
+  width: 55%;
+  margin: 0 auto;
+}
+#abouttext h1 {
+  color: white;
+  font-family: "Irish Grover";
+  font-size: 2rem;
+}
+#abouttext p {
+  color: white;
+  font-family: "Roboto";
+}
+
+.notop {
+  top: 100px !important;
 }
 
 .title {
@@ -52,8 +76,7 @@ footer {
   position: fixed;
   bottom: 50px;
   width: 100%;
-  display: flex;
-  justify-content: space-evenly;
+  margin-left: 45vw;
 }
 
 a {
@@ -141,6 +164,7 @@ a {
 }
 #score h1 {
   text-align: center;
+  font-family: "Irish Grover";
 }
 #score #buttons {
   position: absolute;
@@ -162,6 +186,10 @@ div#tableContainer {
 table {
   width: 80%;
   text-align: center;
+}
+
+#gameimage{
+  width:100%;
 }
 
 /*# sourceMappingURL=style.css.map */

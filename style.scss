@@ -41,6 +41,34 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+
+}
+
+.down{
+  top: 800px !important;
+}
+
+#abouttext{
+  position: absolute;
+  top: 400px;
+  width: 55%;
+  margin: 0 auto;
+
+  h1{
+    color: white;
+    font-family: "Irish Grover";
+    font-size: 2rem;
+  }
+
+  p{
+    color: white;
+    font-family: 'Roboto';
+  }
+}
+
+.notop{
+  top: 100px !important;
 }
 
 .title {
@@ -52,8 +80,7 @@ footer {
   position: fixed;
   bottom: 50px;
   width: 100%;
-  display: flex;
-  justify-content: space-evenly;
+  margin-left: 45vw;
 }
 
 a {
@@ -142,6 +169,7 @@ a {
 
   h1 {
     text-align: center;
+    font-family: "Irish Grover";
   }
 
   #buttons {
