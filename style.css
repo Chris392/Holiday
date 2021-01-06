@@ -189,7 +189,16 @@ table {
 }
 
 #gameimage{
-  width:100%;
+  height: 270px;
+}
+
+#gameimage .big{
+  width: 100vh;
+}
+
+.big{
+  width: 130vh !important;
+  height: 80vh !important;
 }
 
 /*# sourceMappingURL=style.css.map */
